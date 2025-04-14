@@ -1,0 +1,49 @@
+Four Pillars:
+
+1. Abstraction
+2. Encapsulation
+4. Inheritance
+5. Polymorphism
+
+
+Abstraction: Hide the internal implementation & show the essential Functionality
+why => Increase the confidentiality, security & simplicity
+How => Using interface & abstract classes
+
+Encapsulation: It bundles the data & code working on the same data in a single unit.
+AKA => Data Hiding
+Why => For loose coupling
+How => Declare a class, make a variable private & provide the public getter/setter methods
+
+Inheritance: Capabilities to get inherit properties from parent
+why => Code Reusability, Run time Polymorphism
+How => using extend keyword
+Types => Single, Multilevel, Hierarchial, Multiple(Through interface we can resolve the Diamond Problem)
+Single => Parent(Base) <-- Derived(Child)
+Multilevel => Parent <-- FirstGeneration <-- FirstGeneration
+Hierarchial =>  FirstDerived --> Parent <-- SecondDerived
+Multiple => Derived --> (Parent1, Parent2) #In Java, it's possible through interface
+
+
+Polymorphism => A same method, behaves differently in different situation.
+Why => Reusability & help to write efficient code
+How => By declaring same method name with diff arguments or diff type of arguments. 
+# It can't be achieve through using different return type
+
+Types:
+1. Compile time/Static/Method Overloading => Different no of arguments
+2. Run time/Dynamic/Method Overriding => A <-- B, B's method will use which Function
+
+
+Object Relationship:
+1. Is A => Inheritance => Dog is a animal
+2. Has A => One-to-One, One-to-Many, Many-to-Many => School has students
+
+Association >
+Aggregation: Lose relationship => Both object can survive individually. => School has students
+Composition: Strong relationship => Ending of one object will end another object => School has rooms.
+
+
+
+
+
