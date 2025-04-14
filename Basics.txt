@@ -1,0 +1,7 @@
+Procedural Oriented Lang Vs Object Oriented Lang
+Function based              Data based
+Tight Couple                Less Couple
+C                           C++, Java, Python
+
+
+Object => Behavior(Functionality/Function) + Properties (variables)
