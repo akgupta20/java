@@ -1,0 +1,20 @@
+Java => Platform independent, object oriented programming language
+
+JDK(Java Development Kit) -> JRE(Java Runtime environment) -> 
+JVM(Java Virtual Machine) -> Byte code -> Java program
+
+Java Program/Byte code is Platform independent. 
+JVM/JRE/JDK is platform dependent.
+
+JVM has JIT(Just in time compiler). JVM converts byte code to machine code.
+
+JRE = JVM + classes/libraries
+
+WORA: Write once, run anywhere
+
+
+JSE : Java Standard Edition (Core Java)
+JEE : Java Enterprise Edition(Core Java + Transactional API's + JSP + Servlets + ...)
+JME : Java Mobile/Micro Edition (Limited resources) 
+
+
