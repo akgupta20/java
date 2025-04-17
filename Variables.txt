@@ -1,0 +1,42 @@
+variable name can start with '$','_' and any alphabet.
+
+Default value should be applied in only class variable not method variable
+
+Types: 
+1. Primitive:
+
+char: 2 Byte
+
+byte: 1 Byte
+
+short: 2 Byte
+
+int: 4 Byte
+
+long: 8 Byte > eg. long a = 100l; # add l in last to consider as long
+
+These above are integral types means only integers are assignable.
+
+
+float => 4 byte IEEE 754 representation => eg. float a = 0.1f; # add f as suffix
+
+double => 8 byte IEEE 754 representation
+
+
+
+boolean => 1 Bit
+
+
+Conversion:
+
+Widening/Automatic/Implicit Conversion
+Narrowing/Explicit Conversion
+Promotion during expression
+
+
+byte a=100,b=40;
+
+int c = a+b // 140 #this Promotion not happen in c++
+
+
+
