@@ -5,3 +5,8 @@ C                           C++, Java, Python
 
 
 Object => Behavior(Functionality/Function) + Properties (variables)
+
+
+In java file, There should be only one public class of same name as file-name.
+
+Main Method will present inside the public class.
