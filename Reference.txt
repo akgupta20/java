@@ -1,0 +1,35 @@
+There is no concept of pointers in java.
+
+Reference Data Type: 
+String, Array, Class, Interface(Defines Blueprint of the class)
+
+String literal => String greeting = 'Hello'; # Hello is the string literal
+
+String greeting = "Hello";  // "Hello" is the string literal
+✅ Use double quotes for String literals in Java, not single quotes (')—those are for char.
+
+public
+static
+final => used for const variable
+
+
+
+To pass data as a reference use Reference classes(Wrapper class over primitive value).
+
+Integer,Character, Long, String, ArrayList...
+
+Integer a = 10; 
+
+int b = 20;
+
+Integer c = a ; // Auto-Boxing
+
+int d = a; // Unboxing
+
+# Ways to declare Array in Java
+int arr[] = {};
+
+int []arr = {};
+
+Reference type object is declared in the heap memory.
+
