@@ -1,0 +1,1 @@
+Static & final method can't be override.
